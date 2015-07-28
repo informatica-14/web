@@ -1,0 +1,85 @@
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
+audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
+audio:not([controls]){display:none;height:0}
+[hidden],template{display:none}
+a{background-color:transparent}
+a:active,a:hover{outline:0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:700}
+dfn{font-style:italic}
+h1{font-size:2em;margin:.67em 0}
+mark{background:#ff0;color:#000}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:1em 40px}
+hr{box-sizing:content-box;height:0}
+pre{overflow:auto}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
+button{overflow:visible}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+input{line-height:normal}
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}
+input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+textarea{overflow:auto}
+optgroup{font-weight:700}
+table{border-collapse:collapse;border-spacing:0}
+td,th{padding:0}
+*{box-sizing:border-box}
+p{color:#48525c;font-size:1em;margin:0;padding:0}
+body{background:#fffaf0;font-family:'Varela Round',sans-serif;font-size:16px;line-height:1.5;margin:0;padding:0;text-align:center}
+span{display:block;background:#4682b4;color:#fff;border-radius:4px;margin:0 auto;padding:0;text-shadow:0 0 0 #4682b4;width:17%}
+.Main{background:url(../images/main.jpg) center no-repeat;background-size:cover;color:#fff;height:180px;margin:0 0 1em;padding:0}
+.Main-title{font-size:2.2em;margin:0 0 .5em;padding:1.8em 0 0;text-shadow:10px 10px 10px #222;text-transform:uppercase}
+.Main-image{background-color:rgba(0,0,0,.5);border-radius:50%;height:30px;width:30px}
+.Accordion,.BuildContent,.PrimaryContent,.SecondaryContent,.TertiaryContent{border-radius:15px;margin:0 auto;padding:0;width:97%}
+.InfoContent{background-color:#4682b4;box-shadow:0 10px 10px #48525c;border-radius:10px;margin:.9em auto;overflow:hidden;padding:.3em 0;width:98%}
+.InfoContent-title{color:#fff;float:left;font-size:1.1em;margin:0 1em;padding:.3em .2em;text-shadow:0 0 10px #48525c}
+.InfoContent-all{background-color:#dc143c;border-radius:50%;color:#fff;float:right;font-size:1.1em;height:1.5em;margin:.3em 1em 0 0;width:1.5em;text-shadow:0 0 5px #48525c}
+.Accordion,.PrimaryContent,.SecondaryContent,.TertiaryContent{border-top:10px solid #3cb371;font-size:1em;height:auto;margin-bottom:.5em;box-shadow:0 10px 10px #48525c}
+.PrimaryContent-image,.SecondaryContent-image,.TertiaryContent-image{width:30%;margin:.4em 0;padding:0;height:110px}
+.PrimaryContent-image:hover,.SecondaryContent-image:hover,.TertiaryContent-image:hover{-webkit-filter:blur(2px);-moz-filter:blur(2px);-o-filter:blur(2px);-ms-filter:blur(2px)}
+.PrimaryContent-Description,.SecondaryContent-Description,.TertiaryContent-Description{border-radius:10px;margin:.4em auto;text-shadow:0 0 10px #fff;font-size:.9em}
+.PrimaryContent-link,.SecondaryContent-link,.TertiaryContent-link{background-color:#fff;border:2px solid #4682b4;border-radius:10px;color:#4682b4;display:inline-block;margin:.5em auto;padding:0 1em;text-decoration:none}
+.PrimaryContent-link:hover,.SecondaryContent-link:hover,.TertiaryContent-link:hover{color:#3cb371;border:2px solid #3cb371}
+.PrimaryContent-link.show,.SecondaryContent-link.show,.TertiaryContent-link.show{display:none}
+.BuildContent{border-top:10px solid #dc143c;box-shadow:0 10px 10px #48525c;cursor:pointer;font-size:1em;height:auto;margin:1em auto}
+.BuildContent:hover{-webkit-filter:contrast(.1);-moz-filter:contrast(.1);-o-filter:contrast(.1);-ms-filter:contrast(.1)}
+.BuildContent-image{margin:2em 0;max-width:30%;padding:0}
+.BuildContent-info{color:#fff;margin:1em 0 0;padding:1em 0;background:#dc143c;text-transform:uppercase}
+.Accordion-link{background:#4682b4;color:#fff;font-size:1.1em;font-weight:400;padding:.5em;margin:0 0 .2em;cursor:pointer}
+.Accordion-image{margin:0;padding:0;width:100%;display:none}
+.Accordion-back{background:#3cb371;border-radius:0 0 10px 10px;color:#fff;display:block;text-decoration:none;padding:.5em}
+@media screen and (min-width:700px){.Accordion{width:100%}
+.BuildContent,.PrimaryContent,.SecondaryContent,.TertiaryContent{width:40%;margin:1em 1%;height:340px;padding:0 0 1em;display:inline-block;vertical-aling:top}
+.BuildContent-image{width:100%;height:130px}
+.BuildContent-info{font-size:1.1em;padding:2.8em 0 1.9em;width:100%}
+.Main{height:350px}
+.Main-title{font-size:3em}
+.PrimaryContent-image,.SecondaryContent-image,.TertiaryContent-image{width:50%;height:50%;margin-top:.8em}
+.InfoContent{width:84%;margin:0 auto}
+.InfoContent-title{font-size:1.4em}
+.InfoContent-all{font-size:1.4em;height:1.5em}
+.PrimaryContent-Description,.SecondaryContent-Description,.TertiaryContent-Description{width:100%;font-size:1em}
+.PrimaryContent-link,.SecondaryContent-link,.TertiaryContent-link{font-size:1.1em;display:none;margin:0 auto}
+.PrimaryContent-link.show,.SecondaryContent-link.show,.TertiaryContent-link.show{display:inline-block}
+.Accordion-image{width:100%}}
+@media screen and (min-width:950px){.InfoContent{width:95%}
+.Main{height:450px}
+.Main-title{font-size:4em}
+.PrimaryContent,.SecondaryContent,.TertiaryContent{width:30%;height:350px;display:inline-block;vertical-aling:top;margin:1em 1%}
+.BuildContent{width:30%;height:290px;display:inline-block;vertical-aling:top;margin:1em 1%}
+.BuildContent-info{padding:1em}
+.Accordion{width:90%}}
